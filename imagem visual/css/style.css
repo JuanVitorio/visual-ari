@@ -431,3 +431,8 @@ input[type=submit]:hover {
 .choose-file:active {
   background-color: #dfdfdf;
 }
+
+.home-info {
+  background-color: white;
+  border-radius: 5px;
+}
