@@ -1,7 +1,7 @@
 'use strict'
 
 
-function retrair(){
+function retrair() {
   var dashboard = document.querySelector('.dashboard')
   var estabe = document.querySelector('.estabe')
   var esta = document.querySelector('.esta')

@@ -1,5 +1,6 @@
+!
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -14,10 +15,10 @@
 <body>
 
   <div class="form form-login">
-    <form action="index.html" class="form-blank">
+    <form action="login.html" class="form-blank">
 
       <thead class="div-tittles">
-        <h1 class="form-tittle">Login</h1>
+        <h1 class="form-tittle">Cadastro</h1>
         <h4 class="second-tittle">SafeWheels</h4>
       </thead>
 
@@ -26,17 +27,25 @@
         <input type="text" class="input-blank" id="nome" required>
       </div>
 
+      <div class="inputs-div">
+        <label for="nome" class="label-form">Email:</label>
+        <input type="email" class="input-blank" id="email" required>
+      </div>
 
       <div class="inputs-div">
         <label for="senha" class="label-form">Senha:</label>
         <input type="password" class="input-blank" id="senha" required>
       </div>
 
+      <div class="inputs-div">
+        <label for="senha" class="label-form">Confirmar senha:</label>
+        <input type="password" class="input-blank" id="senha2" required>
+      </div>
+
       <input type="submit" value="Enviar" class="input-blank" id="input-submit">
 
       <div class="help-links">
-        <a href="esqueceuSenha.html" class="link-help">Esqueceu sua senha?</a>
-        <a href="cadastroUsuario.html" class="link-help">Cadastrar-se</a>
+        <a href="login.html" class="link-help">Já é cadastrado?</a>
       </div>
 
 
