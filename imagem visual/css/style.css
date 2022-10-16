@@ -7,6 +7,9 @@
 
 :root {
   --padrao: #2660A4;
+  --azul-dois: #3e7abe;
+  --letra: #6a7c8e;
+  --azul-branco: #779dde;
 }
 
 body {
@@ -26,10 +29,41 @@ header {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-h1 {
+.header-tittle {
   font-size: 3.2rem;
-  padding: .5rem 0 0 2rem;
   color: white;
+  margin-left: 3rem;
+}
+
+.box-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.label-login {
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.login-link {
+  color: white;
+}
+
+.user-box {
+  background-color: white;
+  border-radius: 50%;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.user-img {
+  width: 40px;
 }
 
 h3 {
@@ -151,7 +185,7 @@ ul {
   position: sticky;
   background-color: #ffffff;
   width: 230px;
-  height: 100vh;
+  height: 85vh;
   padding: 20px;
   margin-right: 20px;
   box-shadow: 0px 0px 10px rgba(106, 124, 142, 0.3);
@@ -190,7 +224,7 @@ ul {
 
 .item-hide {
   color: white;
-  transition: .5s
+  transition: .5s;
 }
 
 .divider {
@@ -201,11 +235,11 @@ ul {
   margin: 10px 0;
   border-radius: 5px;
   cursor: pointer;
-  ;
 }
 
 .tittle-dashboard {
   font-weight: 500;
+  cursor: pointer;
 }
 
 .divider:hover {
@@ -246,6 +280,7 @@ ul {
   margin: .2rem;
   border-radius: 5px;
   transition: .4s;
+  overflow: hidden;
 }
 
 .item-list:hover {
@@ -257,6 +292,11 @@ i.fa {
   margin-right: .3rem;
 }
 
+#fa-tittle {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
 th {
   border-bottom: 2px solid rgba(106, 124, 142, 0.3);
   padding: .5rem 4rem;
@@ -266,4 +306,44 @@ th {
 td {
   border-bottom: 1px solid rgba(106, 124, 142, 0.2);
   padding: .8rem 4rem;
+}
+
+.btn-action {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.edit {
+  background-color: var(--azul-dois);
+
+}
+
+.edit:hover {
+  background-color: var(--padrao);
+}
+
+.trash {
+  background-color: rgb(255, 106, 106);
+}
+
+.trash:hover {
+  background-color: rgb(207, 70, 70);
+}
+
+.icon {
+  color: white;
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.copyright {
+  position: relative;
+  text-align: center;
+  top: 70%;
 }

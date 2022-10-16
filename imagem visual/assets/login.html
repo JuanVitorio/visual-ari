@@ -4,29 +4,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../css/form.css">
+  <link rel="shortcut icon" href="../icons/icon.png" type="image/x-icon">
   <title>Login - SafeWheels</title>
 
 </head>
 <body>
-  
-  <div class="login-box">
 
-    <h1>Safe<span>Wheels</span></h1>
+<div class="form form-login">
+  <form action="" class="form-blank">
 
-    <form action="">
-      <label for="email">Email:</label>
-      <input type="email" class="email">
+    <thead class="div-tittles">
+      <h1 class="form-tittle">Login</h1>
+      <h4 class="second-tittle">SafeWheels</h4>
+    </thead>
 
-      <label for="senha">Senha:</label>
-      <input type="password" class="senha">
+    <div class="inputs-div">
+      <label for="nome" class="label-form">Nome:</label>
+      <input type="text" class="input-blank" id="nome">
+    </div>
+    
 
-      <input type="submit" value="Logar" class="logar">
+    <div class="inputs-div">
+      <label for="senha" class="label-form">Senha:</label>
+      <input type="password" class="input-blank" id="senha">
+    </div>
+    
+    <input type="submit" value="Enviar" class="input-blank" id="input-submit">
 
-      <a href="cadastro.html">Cadastrar-se</a>
-    </form>
+    <div class="help-links">
+      <a href="#" class="link-help">Esqueceu sua senha?</a> 
+      <a href="#" class="link-help">Cadastrar-se</a>
+    </div>
 
-  </div>
+    
+    
+  </form>
+</div>
 
 </body>
 </html>
