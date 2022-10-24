@@ -21,6 +21,7 @@ body {
 /* estilo do header */
 
 header {
+  width: 100vw;
   height: 100px;
   background-color: #2660A4;
   padding-top: 20px;
@@ -177,7 +178,7 @@ ul {
   position: sticky;
   background-color: #ffffff;
   width: 230px;
-  height: 84vh;
+  height: 85vh;
   padding: 20px;
   margin-right: 20px;
   box-shadow: 0px 0px 10px rgba(106, 124, 142, 0.3);
@@ -241,7 +242,6 @@ ul {
 table {
   background-color: white;
   border-radius: 0 0 10px 10px;
-  width: 100%;
   border-collapse: collapse;
   box-shadow: 0 8px 10px rgba(106, 124, 142, 0.3);
 }
@@ -531,4 +531,247 @@ input[type=submit]:hover {
   border-radius: 5px;
   padding: 15px;
   text-align: justify;
+}
+
+
+@media(max-width:1300px) {
+  .boxing {
+    margin-left: 100px;
+  }
+
+  .bars-background {
+    position: fixed;
+    left: 30px;
+    top: 105px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .bars-background:hover {
+    background-color: white;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  .header-tittle {
+    font-size: 2.7rem;
+  }
+
+  .dashboard {
+    width: 200px;
+    margin-right: 20px;
+    height: 90vh;
+  }
+
+  .hide {
+    margin-left: -220px;
+    margin-right: 120px;
+  }
+
+  .tittle-dashboard {
+    display: none;
+  }
+
+  .dashboard-top {
+    padding-bottom: 40px;
+  }
+
+  td,
+  th,
+  tr {
+    padding: 10px 50px;
+  }
+
+  .infos {
+    padding: 10px;
+  }
+
+  .copyright {
+    top: 60%;
+  }
+
+}
+
+@media(max-width:1100px) {
+
+  .form-cadastro {
+    padding: 25px;
+  }
+
+  .form-adicionar {
+    gap: 1rem;
+  }
+
+  .boxing {
+    margin-left: 0;
+  }
+
+  .bars-background {
+    position: fixed;
+    left: 30px;
+    top: 105px;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+
+  .bars-background:hover {
+    background-color: white;
+  }
+
+  header {
+    height: 70px;
+  }
+
+  .header-tittle {
+    font-size: 2.7rem;
+  }
+
+  .dashboard {
+    width: 200px;
+    margin-right: 20px;
+    height: 90vh;
+  }
+
+  .hide {
+    margin-left: -220px;
+    margin-right: 120px;
+  }
+
+  .tittle-dashboard {
+    display: none;
+  }
+
+  .dashboard-top {
+    padding-bottom: 40px;
+  }
+
+  td,
+  th,
+  tr {
+    padding: 10px 50px;
+  }
+
+  .infos {
+    padding: 10px;
+  }
+
+  .copyright {
+    top: 60%;
+  }
+
+}
+
+@media (max-width:960px) {
+
+  td,
+  th,
+  tr {
+    padding: 10px 40px;
+  }
+
+  .input {
+    width: 250px;
+    font-size: 1rem;
+  }
+
+  .boxing {
+    margin: auto;
+  }
+
+  .dashboard {
+    z-index: 999;
+    position: absolute;
+    height: 100vh;
+  }
+
+  .item-list {
+    font-size: 1.3rem;
+  }
+
+  .bars-background {
+    top: 100px;
+  }
+
+  .header-tittle {
+    font-size: 2.3rem;
+  }
+
+  .hide {
+    margin-right: 170px;
+  }
+}
+
+@media(max-width:430px) {
+
+  .dashboard {
+    z-index: 999;
+    position: absolute;
+    height: 100vh;
+    width: 150px;
+  }
+
+  td,
+  th,
+  tr {
+    padding: 8px 15px;
+  }
+
+  .boxing {
+    margin: auto;
+  }
+
+  .box-login {
+    transform: scale(.9);
+  }
+
+  .header-tittle {
+    font-size: 1.8rem;
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  .item-list {
+    font-size: 1rem;
+  }
+}
+
+@media(max-width:400px) {
+
+  td,
+  th,
+  tr {
+    padding: 10px 10px;
+  }
+
+  .infos {
+    width: 325px;
+  }
+}
+
+@media(max-width:350px) {
+
+  td,
+  th,
+  tr {
+    padding: 5px 5px;
+  }
+
+  .infos {
+    width: 275px;
+  }
+
+  .main-tittle {
+    font-size: 1rem;
+  }
+
+  .second-tittle {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+
+  #fa-tittle {
+    transform: scale(.8);
+  }
 }
